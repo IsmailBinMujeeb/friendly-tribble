@@ -78,15 +78,6 @@ export const LoginPage = () => {
               {loading ? "Signing In..." : "Sign In"}
             </Button>
           </form>
-
-          <div className="mt-6 p-4 bg-gray-50 rounded-lg">
-            <p className="text-xs text-gray-600 font-medium mb-2">
-              Demo Credentials:
-            </p>
-            <p className="text-xs text-gray-500">
-              Admin: admin@school.com / Admin@123
-            </p>
-          </div>
         </Card>
       </div>
     </div>
